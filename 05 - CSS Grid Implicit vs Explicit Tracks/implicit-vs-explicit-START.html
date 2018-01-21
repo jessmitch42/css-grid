@@ -19,6 +19,10 @@
   <style>
     .container {
       display: grid;
+      grid-gap: 20px;
+      grid-template-columns: 200px 400px; /* explicit tracks */
+      /* rows are implicit tracks because they're not defined */
+      /* grid-auto-rows: 100px; define leftover rows */ 
     }
   </style>
 </body>
